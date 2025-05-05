@@ -1,15 +1,14 @@
 ---
-date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+date: '3'
+title: 'AI Volume Controller'
+cover: './ai-volume.jpg'
+github: 'https://github.com/Bharath8992/ai-volume-controller' 
 tech:
-  - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - Python
+  - OpenCV
+  - MediaPipe
+  - PyAutoGUI
+  - NumPy
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+An AI-powered desktop application that controls system volume using hand gestures detected via webcam. Utilizes OpenCV and MediaPipe for real-time hand tracking and gesture recognition. Designed to provide a contactless and intuitive user experience, especially useful for accessibility and multitasking environments.

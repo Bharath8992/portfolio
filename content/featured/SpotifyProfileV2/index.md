@@ -1,16 +1,15 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
-cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
-cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+title: 'Face Detection using Python'
+cover: './face.jpg'
+cta: 'https://github.com/yourusername/face-detection-python'  
 tech:
-  - React
-  - Express
-  - Spotify API
-  - Styled Components
+  - Python
+  - OpenCV
+  - Haar Cascades
+  - MediaPipe
 ---
 
-Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had.
+A real-time face detection application built using Python. Utilizes OpenCV and Haar Cascade classifiers to detect human faces in video streams or webcam input. 
 
-Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.
+This project is perfect for beginners exploring computer vision and AI, demonstrating how face detection works under the hood. It can be easily extended for tasks like emotion recognition, face recognition, or attendance systems using facial features.
