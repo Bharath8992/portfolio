@@ -155,5 +155,15 @@ module.exports = {
         trackingId: 'UA-45666519-2',
       },
     },
+
+    // Image error in deploy fix 
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        // Add the formats option to control what image formats are generated
+        formats: ['AUTO', 'WEBP', 'JPG', 'PNG'],  // Disable AVIF if it's causing issues
+      },
+    },
+    
   ],
 };
